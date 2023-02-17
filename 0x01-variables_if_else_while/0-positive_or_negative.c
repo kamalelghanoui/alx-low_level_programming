@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-#include <time.h>
-/* main :positive anything better than negative */
+#include <stdio.h>
+/* main :Positive anything better than negative nothing */
 
-/* return always to 0 : success */
+/* Return always to 0 : success */
 int main(void)
 {
 int n;
@@ -21,6 +21,6 @@ printf("%d is zero\n", n);
 else (n < 0)
 {
 printf("%d is negative\n", n);
-};
+}
 return (0);
 }
