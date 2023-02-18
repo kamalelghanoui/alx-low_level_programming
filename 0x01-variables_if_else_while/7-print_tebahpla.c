@@ -6,8 +6,8 @@
 int main(void)
 {
 int i;
-i = 97;
-while (i >= 122)
+i = 122;
+while (i >= 97)
 {
 putchar(i);
 i--;
