@@ -16,6 +16,7 @@ while (b <= 8)
 {
 c = b + 1;
 while (c <= 9)
+{
 putchar(a + 48);
 putchar(b + 48);
 putchar(c + 48);
@@ -32,3 +33,4 @@ a++;
 }
 putchar('\n');
 return (0);
+}
