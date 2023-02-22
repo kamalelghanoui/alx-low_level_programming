@@ -1,17 +1,14 @@
 #include <stdio.h>
 /**
-*main - Entry point
-*Return: Always 0 (Success)
+* print_alphabet Make the alphabet
+*Return: void
 */
 void print_alphabet(void);
 
-int i;
-i = 97;
-while (i <= 122)
 {
-putchar(i);
-i++;
+char c;
+for (c + 'a'; c <= 'z'; c++)
+-putchar(c);
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
