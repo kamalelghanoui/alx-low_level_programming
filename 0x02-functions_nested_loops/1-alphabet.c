@@ -1,14 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
-* print_alphabet Make the alphabet
-*Return: void
-*/
-void print_alphabet(void);
-
+ * print_alphabet - Print alphabets using _putchar followed by a new line
+ * Return: 0 if the test passed successfuly
+ */
+void print_alphabet(void)
 {
-char c;
-for (c + 'a'; c <= 'z'; c++)
--putchar(c);
-}
-_putchar('\n');
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+	_putchar(letter);
+	letter++;
+	}
+	_putchar('\n');
 }
