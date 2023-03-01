@@ -1,25 +1,16 @@
-#include <stdio.h>
-
-void swap_int(int *a, int *b);
-
-int main(void)
-{
-    int a = 10;
-    int b = 20;
-
-    printf("Before swap: a = %d, b = %d\n", a, b);
-
-    swap_int(&a, &b);
-
-    printf("After swap: a = %d, b = %d\n", a, b);
-
-    return 0;
-}
-
+#include "main.h"
+/**
+ * swap_int - function that swaps the values of tow integers
+ * @a: integer data type
+ * @b: integer data type
+ */
 void swap_int(int *a, int *b)
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
+int c;
+int m;
+c = *b;
+m = *a;
+*a = c;
+*b = m;
 
+}
